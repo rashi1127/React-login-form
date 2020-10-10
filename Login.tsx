@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     header: {
       textAlign: 'center',
-      background: '#212121',
+      background: '##438D80',
       color: '#fff'
     },
     card: {
@@ -168,8 +168,8 @@ const Login = () => {
             <TextField
               error={state.isError}
               fullWidth
-              id="password"
-              type="password"
+              id="maya"
+              type="maya"
               label="Password"
               placeholder="Password"
               margin="normal"
@@ -183,7 +183,7 @@ const Login = () => {
           <Button
             variant="contained"
             size="large"
-            color="secondary"
+            color="primary"
             className={classes.loginBtn}
             onClick={handleLogin}
             disabled={state.isButtonDisabled}>
